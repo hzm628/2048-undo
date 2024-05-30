@@ -23,22 +23,22 @@ Zimo Huang (zimoh)
 
 ## Overview of each of the classes and their function in the overall game
 
-  - Run2048: it contains the run() method to actually execute the program and display the JFrames.
+  1. Run2048: it contains the run() method to actually execute the program and display the JFrames.
 
-  - Tile: Tile class represents individual Tile in the board. It contains methods such as getValue,
+  2. Tile: Tile class represents individual Tile in the board. It contains methods such as getValue,
         setValue and getTileColor.
 
-  - GameState: It stores three types of game state: started, win, loss. It makes the implementation
+  3. GameState: It stores three types of game state: started, win, loss. It makes the implementation
              easier and also prevents the user from doing things in the wrong game state.
-
-  - GameLogic: This is the most important class in the game. It acts as a model for the key logic
+  
+  4. GameLogic: This is the most important class in the game. It acts as a model for the key logic
              and implementation of 2048. It is completely separated from GUI components and therefore
              allows for unit testing.
 
-  - StartPanel: StartPanel displays the starting page of 2048. It includes a brief description of
+  5. StartPanel: StartPanel displays the starting page of 2048. It includes a brief description of
               how to play this game and the "New Game" and "Load Game" options.
 
-  - GameBoard: The JPanel that "paints" 2048 onto the window. It uses methods in GameLogic and turn
+  6. GameBoard: The JPanel that "paints" 2048 onto the window. It uses methods in GameLogic and turn
              them into Graphics. It also includes scenarios where the user wins and losses.
 
-  - ControlPanel: This JPanel includes two buttons: "New Game" and "Undo", which control the GameBoard.
+  7. ControlPanel: This JPanel includes two buttons: "New Game" and "Undo", which control the GameBoard.
