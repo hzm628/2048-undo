@@ -25,7 +25,7 @@ Zimo Huang (zimoh)
      my tests.
 
 
-## Overview of each of the classes in your code, and what their function is in the overall game.
+## Overview of each of the classes and what their function in the overall game
 
   Run2048: it contains the run() method to actually execute the program and display the JFrames.
 
