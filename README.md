@@ -10,7 +10,7 @@ Zimo Huang (zimoh)
 
 ## Core concepts and the features they implement
 
-  1. 2D Array: I use 2D array to represent the 4x4 game board, with each entry in
+  1. 2D Array: I use 2D array to represent the 4 x 4 game board, with each entry in
      the array containing a Tile element (an instance of "Tile" class that I implement).
 
   2. Collections: For undo, I use two linked lists to store every move and every score
@@ -18,13 +18,11 @@ Zimo Huang (zimoh)
      push and pop methods allow me to add and delete an move (board) easily.
 
   3. File I/O: For the load game functionality, I use I/O to store the game states.
-     I will store the board layout and the score in a file so that when a user wants to
+     I store the board layout and the score in a file so that when a user wants to
      come back to the game I can read from the file and resume the game.
 
-  4. JUnit testable component: I use JUnit tests to test the logic of my game. I make sure
-     that I use the right assert statements and cover important edge cases and not repeat
-     my tests.
-
+  4. JUnit testable component: I use JUnit tests to test the logic of the game. 
+     
 
 ## Overview of each of the classes and their function in the overall game
 
