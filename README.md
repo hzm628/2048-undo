@@ -2,9 +2,9 @@
 
 Zimo Huang (zimoh)
 
-![ScreenShot] start-panel.png
+![Screenshot] (start-panel.png)
 
-![ScreenShot] game.png
+![Screenshot] (game.png)
 
 ## Core concepts and the features they implement
 
