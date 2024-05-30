@@ -2,14 +2,9 @@
 
 Zimo Huang (zimoh)
 
-![Screenshot] (start-panel.png)
-
 <img width="477" alt="start-panel" src="https://github.com/hzm628/2048-undo/assets/127806300/acf73b94-5af2-407c-8dd9-b1ac6fca29d5">
 
 <img width="623" alt="game" src="https://github.com/hzm628/2048-undo/assets/127806300/0fefc0ff-a149-4fa4-a044-5018bc739b5e">
-
-
-![Screenshot] (game.png)
 
 ## Core concepts and the features they implement
 
