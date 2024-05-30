@@ -25,10 +25,7 @@ Zimo Huang (zimoh)
      my tests.
 
 
-## Implementation:
-
-- Provide an overview of each of the classes in your code, and what their
-  function is in the overall game.
+## Overview of each of the classes in your code, and what their function is in the overall game.
 
   Run2048: it contains the run() method to actually execute the program and display the JFrames.
 
@@ -49,20 +46,3 @@ Zimo Huang (zimoh)
              them into Graphics. It also includes scenarios where the user wins and losses.
 
   ControlPanel: This JPanel includes two buttons: "New Game" and "Undo", which control the GameBoard.
-
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
-
-  At first, it was very difficult to get all the classes to communicate with each other
-  properly. Besides, the move method is especially challenging to implement because I have to
-  manipulate 2D array and merge values accordingly in consideration of the four directions.
-  UndoMove method is also difficult as it deals with LinkedList. Previously we did not come
-  across the undo functionality either, so I have to figure it out by myself with the help
-  of java docs.
-
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
-
-  The functionality is separated well. I don't think I would significantly refactor any part.
-  The game model/logic is completely separated from GUI graphics and this design makes the code
-  unit-testable.
