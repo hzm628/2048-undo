@@ -3,11 +3,7 @@
 Zimo Huang (zimoh)
 
 
-## Core Concepts:
-
-- List the four core concepts, the features they implement, and why each feature
-  is an appropriate use of the concept. Incorporate the feedback you got after
-  submitting your proposal.
+## Core concepts and the features they implement
 
   1. 2D Array: I use 2D array to represent the 4x4 game board, with each entry in
      the array containing a Tile element (an instance of "Tile" class that I implement).
