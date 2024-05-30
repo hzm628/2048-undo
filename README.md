@@ -1,9 +1,9 @@
-2048 w/ Unlimited Undo
+# 2048 w/ Unlimited Undo
 
 Zimo Huang (zimoh)
 
 
-Core Concepts:
+## Core Concepts:
 
 - List the four core concepts, the features they implement, and why each feature
   is an appropriate use of the concept. Incorporate the feedback you got after
@@ -25,7 +25,7 @@ Core Concepts:
      my tests.
 
 
-Implementation:
+## Implementation:
 
 - Provide an overview of each of the classes in your code, and what their
   function is in the overall game.
