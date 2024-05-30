@@ -1,11 +1,9 @@
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-CIS 1200 Game Project README
-PennKey: zimoh
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+2048 w/ Unlimited Undo
 
-===================
-=: Core Concepts :=
-===================
+Zimo Huang (zimoh)
+
+
+Core Concepts:
 
 - List the four core concepts, the features they implement, and why each feature
   is an appropriate use of the concept. Incorporate the feedback you got after
@@ -26,9 +24,8 @@ PennKey: zimoh
      that I use the right assert statements and cover important edge cases and not repeat
      my tests.
 
-=========================
-=: Your Implementation :=
-=========================
+
+Implementation:
 
 - Provide an overview of each of the classes in your code, and what their
   function is in the overall game.
@@ -69,13 +66,3 @@ PennKey: zimoh
   The functionality is separated well. I don't think I would significantly refactor any part.
   The game model/logic is completely separated from GUI graphics and this design makes the code
   unit-testable.
-
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (images, tutorials, etc.) that you may have used 
-  while implementing your game.
-
-  I consulted the Javadocs and Lecture Notes for BufferedReader, BufferedWriter and LinkedList.
-  I used online RGB color palette to determine different Tiles' background colors.
